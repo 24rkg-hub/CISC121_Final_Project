@@ -34,6 +34,12 @@ It’s important to understand that not every internal detail of the merge sort 
 
 The app begins with user input through the GUI. The user can either load in or view a playlist and then selects a sorting key such as energy score or duration. Once the user presses the sort button, the program validates the playlist data ensuring there are no invalid entries and starts the merge sort process. During processing, the algorithm divides the playlist into smaller parts, compares song values, and merges them back in order while sending updates to the GUI for animation throughout the sorting process. The output is a visually sorted playlist along with step-by-step highlights showing comparisons, merges, and completed sections. In this design, the input is the playlist and sorting choice, the processing is the custom merge sort algorithm, and the output is both the final sorted playlist and the animated simulation showing how it was created.
 
+<img width="2836" height="3201" alt="image" src="https://github.com/user-attachments/assets/9b3ef590-1207-4db5-9507-459b03a7b64b" />
+
+<img width="2706" height="3490" alt="image" src="https://github.com/user-attachments/assets/52c964fa-6c96-4d23-9fbd-c3d639e75eb3" />
+
+
+
 **Hugging Face Link**
 
 https://huggingface.co/spaces/calebsherbino/CISC121-PlaylistVibeBuilder
