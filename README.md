@@ -1,4 +1,9 @@
 # CISC121_Final_Project
+**Chosen Problem**
+
+Playlist Vibe Builder: User action: choose a sorting key (e.g., energy or duration) and sort the playlist. App output: show the sorted playlist and animate comparisons/moves so the re-ordering is easy to follow.
+
+
 **Why this algorithm fits your chosen problem and dataset**
 
 I chose to implement Merge sort as my sorting algorithm for the Playlist Vibe Builder since the goal of the app is to sort a list of songs by a user selected key such as energy score or duration, while also showing the sorting process clearly and visually. It’s important to note that since playlists can grow to different sizes, merge sort is useful because it performs efficiently even on larger lists with a best case and worst case time complexity of O(nlog n), in comparison to Quick sort which in it’s worst case is O(n2).  It also works well for animation process because the sort naturally breaks the list into smaller parts and then merges them back together in sorted order, which makes the reordering easy for the user to follow visually. One assumption made is that this algorithm relies on every song in the dataset having the selected sorting key available in a comparable form, such as an integer energy score or duration value.
